@@ -19,6 +19,7 @@
 	"main": "lib/index",
 	"typings": "lib/index",
 	"scripts": {
+		"prepare": "npm run build",
 		"build": "tsc --outDir lib/",
 		"build:examples": "webpack --progress --colors",
 		"build:watch": "tsc --outDir lib/ -w",
